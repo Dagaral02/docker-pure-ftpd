@@ -19,9 +19,9 @@ services:
 #      - "/etc/letsencrypt/live/<your_server>/privkey.pem:/etc/ssl/private/pure-ftpd-key.pem"
     environment:
       PUBLICHOST: "localhost"
-      FTP_USER_NAME: username
-      FTP_USER_PASS: mypass
-      FTP_USER_HOME: /home/username
+      FTP_USER_NAME: frodo
+      FTP_USER_PASS: bolson
+      FTP_USER_HOME: /home/debian
 # also for ssl/tls:
 #      ADDED_FLAGS: "--tls=2"
     restart: always
